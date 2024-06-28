@@ -1,0 +1,90 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="80px"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="40px"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:drawableRight="@drawable/baseline_person_24"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textSize="40px"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Mobile Number"
+        android:inputType="number"
+        android:drawableRight="@drawable/baseline_phone_24"
+        android:id="@+id/mob"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="40px"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Username"
+        android:drawableRight="@drawable/baseline_lock_24"
+        android:id="@+id/uname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40px"
+        android:text="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter your Password"
+        android:drawableRight="@drawable/baseline_key_24"
+        android:id="@+id/pass"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40px"
+        android:text="Confirm Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Re-Enter your Password"
+        android:drawableRight="@drawable/baseline_key_24"
+        android:id="@+id/conpass"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:background="#4cd137"
+        android:textColor="#ffffff"
+        android:layout_margin="40px"
+        android:id="@+id/signupbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to sign in"
+        android:background="#4cd137"
+        android:textColor="#ffffff"
+        android:layout_margin="40px"
+        android:id="@+id/backbtn"/>
+
+</LinearLayout>

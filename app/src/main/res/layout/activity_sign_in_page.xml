@@ -1,0 +1,51 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="80px"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add post"
+        android:background="#4cd137"
+        android:textColor="#ffffff"
+        android:layout_margin="40px"
+        android:id="@+id/addbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search post"
+        android:background="#4cd137"
+        android:textColor="#ffffff"
+        android:layout_margin="40px"
+        android:id="@+id/searchbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view all posts"
+        android:background="#4cd137"
+        android:textColor="#ffffff"
+        android:layout_margin="40px"
+        android:id="@+id/viewallbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete post"
+        android:background="#4cd137"
+        android:textColor="#ffffff"
+        android:layout_margin="40px"
+        android:id="@+id/delbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign out"
+        android:background="#4cd137"
+        android:textColor="#ffffff"
+        android:layout_margin="40px"
+        android:id="@+id/signoutbtn"/>
+
+</LinearLayout>
